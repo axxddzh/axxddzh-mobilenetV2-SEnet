@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b63eb991-81d4-43f4-8ef6-2315a4c5eaa7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../pytorch_classification/Test1_official_demo/my_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pytorch_classification/Test6_mobilenet/mobile_backbone.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pytorch_classification/Test6_mobilenet/model_local.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pytorch_classification/Test6_mobilenet/train_local.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pytorch_classification/Test6_mobilenet/train_local_win.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../draw_box_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../loss_and_lr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mAP.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pascal_voc_classes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../plot_curve.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../predict_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../res50_ssd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res50_backbone.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssd_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../train_multi_GPU.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../train_ssd300.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../train_utils/coco_eval.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../train_utils/coco_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../train_utils/distributed_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../train_utils/group_by_aspect_ratio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../train_utils/train_eval_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../transform.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../data_set/split_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../data_set/split_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../deploying_service/deploying_pytorch/pytorch_flask_service/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../deploying_service/deploying_pytorch/pytorch_flask_service/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../pytorch_classification/Test1_official_demo/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../pytorch_classification/Test1_official_demo/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../pytorch_classification/Test6_mobilenet/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../pytorch_classification/Test6_mobilenet/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../pytorch_classification/Test6_mobilenet/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../pytorch_classification/Test6_mobilenet/predict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../pytorch_classification/Test6_mobilenet/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../pytorch_classification/Test6_mobilenet/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ssd/predict_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../ssd/predict_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ssd/src/ssd_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../ssd/src/ssd_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ssd/train_ssd300.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../ssd/train_ssd300.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yolov3_spp/calculate_dataset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yolov3_spp/results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../yolov3_spp/results.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yolov3_spp/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../yolov3_spp/train.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1kpWRyJ15kCCnqCbM7CFfz9NywY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b63eb991-81d4-43f4-8ef6-2315a4c5eaa7" name="Default Changelist" comment="" />
+      <created>1606398008092</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606398008092</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1149" y="1367" key="FileChooserDialogImpl" timestamp="1606442597260">
+      <screen x="-1858" y="1072" width="1858" height="1080" />
+    </state>
+    <state x="-1149" y="1367" key="FileChooserDialogImpl/93.0.2467.1440/-1858.1072.1858.1080@-1858.1072.1858.1080" timestamp="1606442597260" />
+  </component>
+</project>

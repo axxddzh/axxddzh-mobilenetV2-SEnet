@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="21ffe6c6-42c2-4d7b-b925-eda89d6edc6e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../pytorch_classification/Test1_official_demo/my_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../pytorch_classification/Test6_mobilenet/mobile_backbone.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../pytorch_classification/Test6_mobilenet/model_local.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../pytorch_classification/Test6_mobilenet/train_local.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../pytorch_classification/Test6_mobilenet/train_local_win.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/draw_box_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loss_and_lr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loss_and_lr150-300.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mAP.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mAP_150-300.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pascal_voc_classes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plot_curve.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predict_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res50_ssd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res50_backbone.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ssd_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_multi_GPU.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_ssd300.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_ssd300_ubuntu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_utils/coco_eval.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_utils/coco_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_utils/distributed_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_utils/group_by_aspect_ratio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_utils/train_eval_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transform.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.github/ISSUE_TEMPLATE/issue-template.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../.github/ISSUE_TEMPLATE/issue-template.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data_set/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../data_set/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data_set/split_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../data_set/split_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../deploying_service/deploying_pytorch/convert_onnx_cls/class_indices.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../deploying_service/deploying_pytorch/convert_onnx_cls/class_indices.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../deploying_service/deploying_pytorch/convert_onnx_cls/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../deploying_service/deploying_pytorch/convert_onnx_cls/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../deploying_service/deploying_pytorch/convert_onnx_cls/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../deploying_service/deploying_pytorch/convert_onnx_cls/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../deploying_service/deploying_pytorch/pytorch_flask_service/class_indices.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../deploying_service/deploying_pytorch/pytorch_flask_service/class_indices.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../deploying_service/deploying_pytorch/pytorch_flask_service/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../deploying_service/deploying_pytorch/pytorch_flask_service/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../deploying_service/deploying_pytorch/pytorch_flask_service/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../deploying_service/deploying_pytorch/pytorch_flask_service/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../deploying_service/deploying_pytorch/pytorch_flask_service/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../deploying_service/deploying_pytorch/pytorch_flask_service/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../deploying_service/pruning_model_pytorch/class_indices.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../deploying_service/pruning_model_pytorch/class_indices.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../deploying_service/pruning_model_pytorch/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../deploying_service/pruning_model_pytorch/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../deploying_service/pruning_model_pytorch/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../deploying_service/pruning_model_pytorch/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../deploying_service/pruning_model_pytorch/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../deploying_service/pruning_model_pytorch/predict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../deploying_service/pruning_model_pytorch/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../deploying_service/pruning_model_pytorch/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../others_project/openvinotest/openvino_cls_test/class_indices.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../others_project/openvinotest/openvino_cls_test/class_indices.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../others_project/openvinotest/openvino_cls_test/create_imagenet_annotation.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../others_project/openvinotest/openvino_cls_test/create_imagenet_annotation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../others_project/openvinotest/openvino_cls_test/float32vsint8.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../others_project/openvinotest/openvino_cls_test/float32vsint8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../others_project/openvinotest/openvino_cls_test/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../others_project/openvinotest/openvino_cls_test/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../others_project/openvinotest/openvino_cls_test/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../others_project/openvinotest/openvino_cls_test/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../others_project/openvinotest/openvino_cls_test/speed_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../others_project/openvinotest/openvino_cls_test/speed_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../others_project/readPbFile/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../others_project/readPbFile/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../others_project/readPbFile/export/checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/../../others_project/readPbFile/export/checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../others_project/readPbFile/pascal_label_map.pbtxt" beforeDir="false" afterPath="$PROJECT_DIR$/../../others_project/readPbFile/pascal_label_map.pbtxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../others_project/readPbFile/readPb.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../others_project/readPbFile/readPb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../others_project/readPbFile/test_images/image_info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../others_project/readPbFile/test_images/image_info.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../others_project/readPbFile/using_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../others_project/readPbFile/using_function.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../others_project/textcnnKeras/dataGenerator.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../others_project/textcnnKeras/dataGenerator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../others_project/textcnnKeras/data_link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../others_project/textcnnKeras/data_link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../others_project/textcnnKeras/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../others_project/textcnnKeras/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../others_project/textcnnKeras/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../others_project/textcnnKeras/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pytorch_classification/ConfusionMatrix/class_indices.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../pytorch_classification/ConfusionMatrix/class_indices.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pytorch_classification/ConfusionMatrix/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../pytorch_classification/ConfusionMatrix/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pytorch_classification/ConfusionMatrix/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../pytorch_classification/ConfusionMatrix/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pytorch_classification/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../pytorch_classification/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pytorch_classification/Test1_official_demo/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../pytorch_classification/Test1_official_demo/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pytorch_classification/Test1_official_demo/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../pytorch_classification/Test1_official_demo/predict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pytorch_classification/Test1_official_demo/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../pytorch_classification/Test1_official_demo/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pytorch_classification/Test2_alexnet/class_indices.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../pytorch_classification/Test2_alexnet/class_indices.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pytorch_classification/Test2_alexnet/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../pytorch_classification/Test2_alexnet/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pytorch_classification/Test2_alexnet/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../pytorch_classification/Test2_alexnet/predict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pytorch_classification/Test2_alexnet/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../pytorch_classification/Test2_alexnet/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pytorch_classification/Test3_vggnet/class_indices.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../pytorch_classification/Test3_vggnet/class_indices.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pytorch_classification/Test3_vggnet/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../pytorch_classification/Test3_vggnet/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pytorch_classification/Test3_vggnet/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../pytorch_classification/Test3_vggnet/predict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pytorch_classification/Test3_vggnet/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../pytorch_classification/Test3_vggnet/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pytorch_classification/Test4_googlenet/class_indices.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../pytorch_classification/Test4_googlenet/class_indices.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pytorch_classification/Test4_googlenet/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../pytorch_classification/Test4_googlenet/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pytorch_classification/Test4_googlenet/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../pytorch_classification/Test4_googlenet/predict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pytorch_classification/Test4_googlenet/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../pytorch_classification/Test4_googlenet/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pytorch_classification/Test5_resnet/class_indices.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../pytorch_classification/Test5_resnet/class_indices.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pytorch_classification/Test5_resnet/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../pytorch_classification/Test5_resnet/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pytorch_classification/Test5_resnet/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../pytorch_classification/Test5_resnet/predict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pytorch_classification/Test5_resnet/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../pytorch_classification/Test5_resnet/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pytorch_classification/Test6_mobilenet/class_indices.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../pytorch_classification/Test6_mobilenet/class_indices.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pytorch_classification/Test6_mobilenet/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../pytorch_classification/Test6_mobilenet/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pytorch_classification/Test6_mobilenet/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../pytorch_classification/Test6_mobilenet/predict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pytorch_classification/Test6_mobilenet/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../pytorch_classification/Test6_mobilenet/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pytorch_classification/analyze_weights_featuremap/alexnet_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../pytorch_classification/analyze_weights_featuremap/alexnet_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pytorch_classification/analyze_weights_featuremap/analyze_feature_map.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../pytorch_classification/analyze_weights_featuremap/analyze_feature_map.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pytorch_classification/analyze_weights_featuremap/analyze_kernel_weight.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../pytorch_classification/analyze_weights_featuremap/analyze_kernel_weight.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pytorch_classification/analyze_weights_featuremap/resnet_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../pytorch_classification/analyze_weights_featuremap/resnet_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RetinaNet/draw_box_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../RetinaNet/draw_box_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RetinaNet/my_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/../RetinaNet/my_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RetinaNet/pascal_voc_classes.json" beforeDir="false" afterPath="$PROJECT_DIR$/../RetinaNet/pascal_voc_classes.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RetinaNet/plot_curve.py" beforeDir="false" afterPath="$PROJECT_DIR$/../RetinaNet/plot_curve.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RetinaNet/predict_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../RetinaNet/predict_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RetinaNet/read_ckpt.py" beforeDir="false" afterPath="$PROJECT_DIR$/../RetinaNet/read_ckpt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RetinaNet/src/loss.py" beforeDir="false" afterPath="$PROJECT_DIR$/../RetinaNet/src/loss.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RetinaNet/src/res50_backbone.py" beforeDir="false" afterPath="$PROJECT_DIR$/../RetinaNet/src/res50_backbone.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RetinaNet/src/retina_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../RetinaNet/src/retina_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RetinaNet/src/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../RetinaNet/src/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RetinaNet/train_multi_GPU.py" beforeDir="false" afterPath="$PROJECT_DIR$/../RetinaNet/train_multi_GPU.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RetinaNet/train_retinaNet.py" beforeDir="false" afterPath="$PROJECT_DIR$/../RetinaNet/train_retinaNet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RetinaNet/train_utils/coco_eval.py" beforeDir="false" afterPath="$PROJECT_DIR$/../RetinaNet/train_utils/coco_eval.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RetinaNet/train_utils/coco_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../RetinaNet/train_utils/coco_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RetinaNet/train_utils/group_by_aspect_ratio.py" beforeDir="false" afterPath="$PROJECT_DIR$/../RetinaNet/train_utils/group_by_aspect_ratio.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RetinaNet/train_utils/train_eval_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../RetinaNet/train_utils/train_eval_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RetinaNet/transform.py" beforeDir="false" afterPath="$PROJECT_DIR$/../RetinaNet/transform.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../faster_rcnn/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../faster_rcnn/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../faster_rcnn/backbone/mobilenetv2_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../faster_rcnn/backbone/mobilenetv2_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../faster_rcnn/backbone/resnet50_fpn_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../faster_rcnn/backbone/resnet50_fpn_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../faster_rcnn/backbone/vgg_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../faster_rcnn/backbone/vgg_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../faster_rcnn/draw_box_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../faster_rcnn/draw_box_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../faster_rcnn/my_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/../faster_rcnn/my_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../faster_rcnn/network_files/boxes.py" beforeDir="false" afterPath="$PROJECT_DIR$/../faster_rcnn/network_files/boxes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../faster_rcnn/network_files/det_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../faster_rcnn/network_files/det_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../faster_rcnn/network_files/faster_rcnn_framework.py" beforeDir="false" afterPath="$PROJECT_DIR$/../faster_rcnn/network_files/faster_rcnn_framework.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../faster_rcnn/network_files/image_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/../faster_rcnn/network_files/image_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../faster_rcnn/network_files/roi_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/../faster_rcnn/network_files/roi_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../faster_rcnn/network_files/rpn_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/../faster_rcnn/network_files/rpn_function.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../faster_rcnn/network_files/transform.py" beforeDir="false" afterPath="$PROJECT_DIR$/../faster_rcnn/network_files/transform.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../faster_rcnn/pascal_voc_classes.json" beforeDir="false" afterPath="$PROJECT_DIR$/../faster_rcnn/pascal_voc_classes.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../faster_rcnn/plot_curve.py" beforeDir="false" afterPath="$PROJECT_DIR$/../faster_rcnn/plot_curve.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../faster_rcnn/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/../faster_rcnn/predict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../faster_rcnn/spilt_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/../faster_rcnn/spilt_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../faster_rcnn/train_mobilenet.py" beforeDir="false" afterPath="$PROJECT_DIR$/../faster_rcnn/train_mobilenet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../faster_rcnn/train_multi_GPU.py" beforeDir="false" afterPath="$PROJECT_DIR$/../faster_rcnn/train_multi_GPU.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../faster_rcnn/train_res50_fpn.py" beforeDir="false" afterPath="$PROJECT_DIR$/../faster_rcnn/train_res50_fpn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../faster_rcnn/train_utils/coco_eval.py" beforeDir="false" afterPath="$PROJECT_DIR$/../faster_rcnn/train_utils/coco_eval.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../faster_rcnn/train_utils/coco_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../faster_rcnn/train_utils/coco_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../faster_rcnn/train_utils/distributed_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../faster_rcnn/train_utils/distributed_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../faster_rcnn/train_utils/group_by_aspect_ratio.py" beforeDir="false" afterPath="$PROJECT_DIR$/../faster_rcnn/train_utils/group_by_aspect_ratio.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../faster_rcnn/train_utils/train_eval_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../faster_rcnn/train_utils/train_eval_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../faster_rcnn/transforms.py" beforeDir="false" afterPath="$PROJECT_DIR$/../faster_rcnn/transforms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssd/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../ssd/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssd/draw_box_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ssd/draw_box_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssd/my_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ssd/my_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssd/pascal_voc_classes.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ssd/pascal_voc_classes.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssd/plot_curve.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ssd/plot_curve.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssd/predict_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ssd/predict_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssd/src/res50_backbone.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ssd/src/res50_backbone.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssd/src/ssd_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ssd/src/ssd_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssd/src/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ssd/src/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssd/train_multi_GPU.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ssd/train_multi_GPU.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssd/train_ssd300.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ssd/train_ssd300.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssd/train_utils/coco_eval.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ssd/train_utils/coco_eval.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssd/train_utils/coco_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ssd/train_utils/coco_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssd/train_utils/distributed_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ssd/train_utils/distributed_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssd/train_utils/group_by_aspect_ratio.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ssd/train_utils/group_by_aspect_ratio.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssd/train_utils/train_eval_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ssd/train_utils/train_eval_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssd/transform.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ssd/transform.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yolov3_spp/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../yolov3_spp/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yolov3_spp/calculate_dataset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yolov3_spp/cfg/hyp.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../yolov3_spp/cfg/hyp.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yolov3_spp/cfg/yolov3-spp.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/../yolov3_spp/cfg/yolov3-spp.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yolov3_spp/data/pascal_voc_classes.json" beforeDir="false" afterPath="$PROJECT_DIR$/../yolov3_spp/data/pascal_voc_classes.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yolov3_spp/draw_box_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../yolov3_spp/draw_box_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yolov3_spp/export_onnx.py" beforeDir="false" afterPath="$PROJECT_DIR$/../yolov3_spp/export_onnx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yolov3_spp/load_onnx_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../yolov3_spp/load_onnx_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yolov3_spp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../yolov3_spp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yolov3_spp/predict_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../yolov3_spp/predict_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yolov3_spp/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../yolov3_spp/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yolov3_spp/results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../yolov3_spp/results.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yolov3_spp/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/../yolov3_spp/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yolov3_spp/train_multi_GPU.py" beforeDir="false" afterPath="$PROJECT_DIR$/../yolov3_spp/train_multi_GPU.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yolov3_spp/train_utils/coco_eval.py" beforeDir="false" afterPath="$PROJECT_DIR$/../yolov3_spp/train_utils/coco_eval.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yolov3_spp/train_utils/coco_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../yolov3_spp/train_utils/coco_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yolov3_spp/train_utils/distributed_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../yolov3_spp/train_utils/distributed_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yolov3_spp/train_utils/group_by_aspect_ratio.py" beforeDir="false" afterPath="$PROJECT_DIR$/../yolov3_spp/train_utils/group_by_aspect_ratio.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yolov3_spp/train_utils/train_eval_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../yolov3_spp/train_utils/train_eval_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yolov3_spp/trans_voc2yolo.py" beforeDir="false" afterPath="$PROJECT_DIR$/../yolov3_spp/trans_voc2yolo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yolov3_spp/utils/datasets.py" beforeDir="false" afterPath="$PROJECT_DIR$/../yolov3_spp/utils/datasets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yolov3_spp/utils/img_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../yolov3_spp/utils/img_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yolov3_spp/utils/layers.py" beforeDir="false" afterPath="$PROJECT_DIR$/../yolov3_spp/utils/layers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yolov3_spp/utils/parse_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/../yolov3_spp/utils/parse_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yolov3_spp/utils/torch_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../yolov3_spp/utils/torch_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yolov3_spp/utils/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../yolov3_spp/utils/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../summary_problem.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../summary_problem.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tensorflow_classification/ConfusionMatrix/class_indices.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../tensorflow_classification/ConfusionMatrix/class_indices.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tensorflow_classification/ConfusionMatrix/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../tensorflow_classification/ConfusionMatrix/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tensorflow_classification/ConfusionMatrix/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../tensorflow_classification/ConfusionMatrix/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tensorflow_classification/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../tensorflow_classification/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tensorflow_classification/Test1_official_demo/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../tensorflow_classification/Test1_official_demo/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tensorflow_classification/Test1_official_demo/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../tensorflow_classification/Test1_official_demo/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tensorflow_classification/Test2_alexnet/class_indices.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../tensorflow_classification/Test2_alexnet/class_indices.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tensorflow_classification/Test2_alexnet/fine_train_alexnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../tensorflow_classification/Test2_alexnet/fine_train_alexnet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tensorflow_classification/Test2_alexnet/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../tensorflow_classification/Test2_alexnet/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tensorflow_classification/Test2_alexnet/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../tensorflow_classification/Test2_alexnet/predict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tensorflow_classification/Test2_alexnet/read_pth.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../tensorflow_classification/Test2_alexnet/read_pth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tensorflow_classification/Test2_alexnet/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../tensorflow_classification/Test2_alexnet/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tensorflow_classification/Test2_alexnet/trainGPU.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../tensorflow_classification/Test2_alexnet/trainGPU.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tensorflow_classification/Test3_vgg/class_indices.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../tensorflow_classification/Test3_vgg/class_indices.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tensorflow_classification/Test3_vgg/fine_train_vgg16.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../tensorflow_classification/Test3_vgg/fine_train_vgg16.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tensorflow_classification/Test3_vgg/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../tensorflow_classification/Test3_vgg/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tensorflow_classification/Test3_vgg/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../tensorflow_classification/Test3_vgg/predict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tensorflow_classification/Test3_vgg/read_ckpt.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../tensorflow_classification/Test3_vgg/read_ckpt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tensorflow_classification/Test3_vgg/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../tensorflow_classification/Test3_vgg/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tensorflow_classification/Test3_vgg/trainGPU.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../tensorflow_classification/Test3_vgg/trainGPU.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tensorflow_classification/Test4_goolenet/class_indices.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../tensorflow_classification/Test4_goolenet/class_indices.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tensorflow_classification/Test4_goolenet/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../tensorflow_classification/Test4_goolenet/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tensorflow_classification/Test4_goolenet/model_add_bn.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../tensorflow_classification/Test4_goolenet/model_add_bn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tensorflow_classification/Test4_goolenet/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../tensorflow_classification/Test4_goolenet/predict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tensorflow_classification/Test4_goolenet/read_pth.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../tensorflow_classification/Test4_goolenet/read_pth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tensorflow_classification/Test4_goolenet/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../tensorflow_classification/Test4_goolenet/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tensorflow_classification/Test4_goolenet/trainGPU.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../tensorflow_classification/Test4_goolenet/trainGPU.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tensorflow_classification/Test4_goolenet/train_add_bn.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../tensorflow_classification/Test4_goolenet/train_add_bn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tensorflow_classification/Test5_resnet/class_indices.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../tensorflow_classification/Test5_resnet/class_indices.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tensorflow_classification/Test5_resnet/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../tensorflow_classification/Test5_resnet/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tensorflow_classification/Test5_resnet/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../tensorflow_classification/Test5_resnet/predict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tensorflow_classification/Test5_resnet/read_ckpt.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../tensorflow_classification/Test5_resnet/read_ckpt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tensorflow_classification/Test5_resnet/read_h5.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../tensorflow_classification/Test5_resnet/read_h5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tensorflow_classification/Test5_resnet/save_weights/checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/../../tensorflow_classification/Test5_resnet/save_weights/checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tensorflow_classification/Test5_resnet/subclassed_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../tensorflow_classification/Test5_resnet/subclassed_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tensorflow_classification/Test5_resnet/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../tensorflow_classification/Test5_resnet/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tensorflow_classification/Test5_resnet/trainGPU.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../tensorflow_classification/Test5_resnet/trainGPU.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tensorflow_classification/Test6_mobilenet/class_indices.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../tensorflow_classification/Test6_mobilenet/class_indices.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tensorflow_classification/Test6_mobilenet/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../tensorflow_classification/Test6_mobilenet/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tensorflow_classification/Test6_mobilenet/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../tensorflow_classification/Test6_mobilenet/predict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tensorflow_classification/Test6_mobilenet/read_ckpt.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../tensorflow_classification/Test6_mobilenet/read_ckpt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tensorflow_classification/Test6_mobilenet/save_weights/checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/../../tensorflow_classification/Test6_mobilenet/save_weights/checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tensorflow_classification/Test6_mobilenet/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../tensorflow_classification/Test6_mobilenet/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tensorflow_classification/Test6_mobilenet/trainGPU.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../tensorflow_classification/Test6_mobilenet/trainGPU.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tensorflow_classification/analyze_weights_featuremap/alexnet_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../tensorflow_classification/analyze_weights_featuremap/alexnet_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tensorflow_classification/analyze_weights_featuremap/analyze_feature_map.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../tensorflow_classification/analyze_weights_featuremap/analyze_feature_map.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tensorflow_classification/analyze_weights_featuremap/analyze_kernel_weight.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../tensorflow_classification/analyze_weights_featuremap/analyze_kernel_weight.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1kjmhrsWaeq45M0qqgwbBzXqxPi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\python\image\deep-learning-for-image-processing\pytorch_object_detection\ssd\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="D:\python\image\deep-learning-for-image-processing\pytorch_object_detection\ssd_mobile" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.train_ssd300_ubuntu">
+    <configuration name="coco_eval" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ssd" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\ProgramData\Anaconda3\envs\torch16\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/train_utils" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train_utils/coco_eval.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="predict_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ssd" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/envs/deeplearn/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/predict_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train_ssd300" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ssd" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\ProgramData\Anaconda3\envs\torch16\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train_ssd300.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train_ssd300_ubuntu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ssd" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/envs/deeplearn/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train_ssd300_ubuntu.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.coco_eval" />
+      <item itemvalue="Python.predict_test" />
+      <item itemvalue="Python.train_ssd300" />
+      <item itemvalue="Python.train_ssd300_ubuntu" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.train_ssd300_ubuntu" />
+        <item itemvalue="Python.predict_test" />
+        <item itemvalue="Python.train_ssd300" />
+        <item itemvalue="Python.coco_eval" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="21ffe6c6-42c2-4d7b-b925-eda89d6edc6e" name="Default Changelist" comment="" />
+      <created>1606222496702</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606222496702</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="396" y="904" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606536515344">
+      <screen x="0" y="709" width="1920" height="1080" />
+    </state>
+    <state x="396" y="904" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.3840.2160/0.709.1920.1080@0.709.1920.1080" timestamp="1606536515344" />
+    <state x="-1475" y="1267" key="#com.intellij.execution.impl.EditConfigurationsDialog/74.0.2486.1440/-1858.1072.1858.1080@-1858.1072.1858.1080" timestamp="1606286017097" />
+    <state x="791" y="1066" width="530" height="600" key="FileChooserDialogImpl" timestamp="1606462498727">
+      <screen x="0" y="709" width="1920" height="1080" />
+    </state>
+    <state x="791" y="1066" width="530" height="600" key="FileChooserDialogImpl/1920.0.3840.2160/0.709.1920.1080@0.709.1920.1080" timestamp="1606462498727" />
+    <state x="1098" y="476" key="FileChooserDialogImpl/74.0.2486.1440/-1858.1072.1858.1080@74.0.2486.1440" timestamp="1606381595742" />
+    <state width="1888" height="277" key="GridCell.Tab.0.bottom" timestamp="1606627889920">
+      <screen x="0" y="709" width="1920" height="1080" />
+    </state>
+    <state width="1888" height="277" key="GridCell.Tab.0.bottom/1920.0.3840.2160/0.709.1920.1080@0.709.1920.1080" timestamp="1606627889920" />
+    <state width="1837" height="179" key="GridCell.Tab.0.bottom/74.0.2486.1440/-1858.1072.1858.1080@-1858.1072.1858.1080" timestamp="1606311607286" />
+    <state width="2465" height="364" key="GridCell.Tab.0.bottom/74.0.2486.1440/-1858.1072.1858.1080@74.0.2486.1440" timestamp="1606381600533" />
+    <state width="1837" height="258" key="GridCell.Tab.0.bottom/93.0.2467.1440/-1858.1072.1858.1080@-1858.1072.1858.1080" timestamp="1606447972828" />
+    <state width="1888" height="277" key="GridCell.Tab.0.center" timestamp="1606627889920">
+      <screen x="0" y="709" width="1920" height="1080" />
+    </state>
+    <state width="1888" height="277" key="GridCell.Tab.0.center/1920.0.3840.2160/0.709.1920.1080@0.709.1920.1080" timestamp="1606627889920" />
+    <state width="1837" height="179" key="GridCell.Tab.0.center/74.0.2486.1440/-1858.1072.1858.1080@-1858.1072.1858.1080" timestamp="1606311607285" />
+    <state width="2465" height="364" key="GridCell.Tab.0.center/74.0.2486.1440/-1858.1072.1858.1080@74.0.2486.1440" timestamp="1606381600533" />
+    <state width="1837" height="258" key="GridCell.Tab.0.center/93.0.2467.1440/-1858.1072.1858.1080@-1858.1072.1858.1080" timestamp="1606447972828" />
+    <state width="1888" height="277" key="GridCell.Tab.0.left" timestamp="1606627889920">
+      <screen x="0" y="709" width="1920" height="1080" />
+    </state>
+    <state width="1888" height="277" key="GridCell.Tab.0.left/1920.0.3840.2160/0.709.1920.1080@0.709.1920.1080" timestamp="1606627889920" />
+    <state width="1837" height="179" key="GridCell.Tab.0.left/74.0.2486.1440/-1858.1072.1858.1080@-1858.1072.1858.1080" timestamp="1606311607285" />
+    <state width="2465" height="364" key="GridCell.Tab.0.left/74.0.2486.1440/-1858.1072.1858.1080@74.0.2486.1440" timestamp="1606381600533" />
+    <state width="1837" height="258" key="GridCell.Tab.0.left/93.0.2467.1440/-1858.1072.1858.1080@-1858.1072.1858.1080" timestamp="1606447972828" />
+    <state width="1888" height="277" key="GridCell.Tab.0.right" timestamp="1606627889920">
+      <screen x="0" y="709" width="1920" height="1080" />
+    </state>
+    <state width="1888" height="277" key="GridCell.Tab.0.right/1920.0.3840.2160/0.709.1920.1080@0.709.1920.1080" timestamp="1606627889920" />
+    <state width="1837" height="179" key="GridCell.Tab.0.right/74.0.2486.1440/-1858.1072.1858.1080@-1858.1072.1858.1080" timestamp="1606311607285" />
+    <state width="2465" height="364" key="GridCell.Tab.0.right/74.0.2486.1440/-1858.1072.1858.1080@74.0.2486.1440" timestamp="1606381600533" />
+    <state width="1837" height="258" key="GridCell.Tab.0.right/93.0.2467.1440/-1858.1072.1858.1080@-1858.1072.1858.1080" timestamp="1606447972828" />
+  </component>
+</project>
