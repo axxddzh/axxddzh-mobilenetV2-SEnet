@@ -4,13 +4,13 @@ from torchvision import transforms, datasets
 import json
 import os
 import torch.optim as optim
-from model import MobileNetV21
+from mobile_backbone import MobileBackbone
 from model_local import MobileNetV2
 import torchvision.models as module
 from tqdm import tqdm
 from torchstat import stat
 from matplotlib import pyplot as plt
-
+import pandas as pd
 nn.ConvTranspose2d
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
@@ -47,8 +47,8 @@ validate_loader = torch.utils.data.DataLoader(validate_dataset,
                                               batch_size=batch_size, shuffle=False,
                                               num_workers=8,pin_memory = True)
 
-net = MobileNetV21()
-stat(net, (3, 224, 224))
+net = MobileBackbone()
+# stat(net, (3, 300, 300))
 # net = module.mobilenet_v2(pretrained=False)
 # load pretrain weights
 # model_weight_path = "./mobilenet_v2-b0353104 (1).pth"
@@ -60,25 +60,43 @@ stat(net, (3, 224, 224))
 # # freeze features weights
 # for param in net.features.parameters():
 #     param.requires_grad = False
-
+clm=["train_loss","lr","val_acc"]
 net.to(device)
 lr_list = []
-LR = 0.001
+LR = 0.0001
 optimizer = optim.Adam(net.parameters(),lr = LR)
-scheduler = optim.lr_scheduler.StepLR(optimizer,step_size=5,gamma = 0.8)
+scheduler = optim.lr_scheduler.StepLR(optimizer,step_size=3,gamma = 0.5)
 
 loss_function = nn.CrossEntropyLoss()
 
 best_acc = 0.0
-save_path = '.\\MobileNetV2.pth'
-net.load_state_dict(torch.load(save_path), strict=False)
+if not os.path.exists("./save_weight"):
+    os.makedirs("./save_weight")
+
+start_epoch = 0
+train_loss = []
+val_map = []
+resume = ""
+if resume != "":
+    checkpoint = torch.load(resume)
+    net.load_state_dict(checkpoint['model'])
+    optimizer.load_state_dict(checkpoint['optimizer'])
+    scheduler.load_state_dict(checkpoint['lr_scheduler'])
+    start_epoch = checkpoint['epoch'] + 1
+    train_loss = checkpoint['train_loss']
+    val_map = checkpoint['val_map']
+    lr_list = checkpoint['lr_list']
+    print("the training process from epoch{}...".format(start_epoch))
+
+
 for epoch in range(150):
     # train
-
+    if epoch < start_epoch:
+        continue
     lr_list.append(optimizer.state_dict()['param_groups'][0]['lr'])
     net.train()
     running_loss = 0.0
-    for step, data in enumerate(tqdm(train_loader), start=0):
+    for step, data in enumerate(train_loader, start=0):
         images, labels = data
         optimizer.zero_grad()
         logits = net(images.to(device))
@@ -90,9 +108,10 @@ for epoch in range(150):
         running_loss += loss.item()
         # print train process
         rate = (step+1)/len(train_loader)
-        print("train loss: {:.4f}".format(loss), end="")
+        print("epoch:{},batch:{}/10010,train loss: {:.4f}".format(epoch+1,step,loss))
     print()
-
+    loss_c = loss
+    train_loss.append(loss_c.cpu().detach().numpy())
     # validate
     net.eval()
     acc = 0.0  # accumulate accurate number / epoch
@@ -106,12 +125,36 @@ for epoch in range(150):
         val_accurate = acc / val_num
         if val_accurate > best_acc:
             best_acc = val_accurate
-            torch.save(net.state_dict(), save_path)
+            save_files = {
+                'model': net.state_dict(),
+                'optimizer': optimizer.state_dict(),
+                'lr_scheduler': scheduler.state_dict(),
+                'epoch': epoch,
+                'train_loss':train_loss,
+                "lr_list":lr_list,
+                'val_map':val_map
+            }
+            torch.save(save_files, "./save_weight/ssd300-{}-{}.pth".format(epoch,val_accurate))
         print('[epoch %d] train_loss: %.3f  test_accuracy: %.3f' %
               (epoch + 1, running_loss / step, val_accurate))
         plt.plot(range(len(lr_list)), lr_list, color='r')
+        val_map.append(val_accurate)
+        df = pd.DataFrame([train_loss,lr_list,val_map],index=clm)
+        df.to_csv('Result.csv')
+        # plot loss and lr curve
+        if len(train_loss) != 0 and len(lr_list) != 0:
+            from plot_curve import plot_loss_and_lr
+
+            plot_loss_and_lr(train_loss, lr_list)
+
+        # plot mAP curve
+        if len(val_map) != 0:
+            from plot_curve import plot_map
+
+            plot_map(val_map)
     scheduler.step()
 print('Finished Training')
+
 # net.eval()
 # acc = 0.0
 # with torch.no_grad():
